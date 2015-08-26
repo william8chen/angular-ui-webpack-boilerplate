@@ -43,11 +43,11 @@ module.exports = {
             {
                 test: /[\/]angular\.js$/,
                 loader: 'exports?angular' // For non commonJs
-            },
+            }/*,
             {
                 test: /[\/]ionic\.js$/,
                 loader: 'exports?ionic' // For non commonJs
-            }
+		}*/
         ],
         noParse: [
             /bower_components/
@@ -63,11 +63,11 @@ module.exports = {
         moduleDirectories: [
             'bower_components',
             'node_modules'
-        ],
+        ]/*,
         alias: {// If the the key ends with $ only the exact match (without the $) will be replaced.
             "ionic$": 'ionic/release/js/ionic.js',
             "ionic-angular": 'ionic/release/js/ionic-angular.js'
-        }
+	    }*/
     },
     plugins: [
 	      new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"js/vendor.bundle.js"),
