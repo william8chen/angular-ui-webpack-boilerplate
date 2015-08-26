@@ -1,0 +1,23 @@
+{
+  "name": "angular-ui-webpack-boilerplate",
+  "version": "0.0.0",
+  "authors": [
+    "william.chen <1205028752@qq.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionicons": "~2.0.1",
+    "angular": "~1.4.4",
+    "angular-animate": "~1.4.4",
+    "angular-sanitize": "~1.4.4",
+    "angular-ui-router": "~0.2.15",
+    "angular-bootstrap": "~0.13.3"
+  }
+}
